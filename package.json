@@ -1,0 +1,86 @@
+{
+  "_from": "react-native-queue",
+  "_id": "react-native-queue@1.2.1",
+  "_inBundle": false,
+  "_integrity": "sha1-dekDl5lp0CbW//8nDUHwLad5Q9M=",
+  "_location": "/react-native-queue",
+  "_phantomChildren": {
+    "randombytes": "2.1.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-queue",
+    "name": "react-native-queue",
+    "escapedName": "react-native-queue",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-queue/-/react-native-queue-1.2.1.tgz",
+  "_shasum": "75e903979969d026d6ffff270d41f02da77943d3",
+  "_spec": "react-native-queue",
+  "_where": "/Users/josh/Documents/octane-server/autologging/autologging2",
+  "author": {
+    "name": "Reid Mayo"
+  },
+  "bugs": {
+    "url": "https://github.com/billmalarky/react-native-queue/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "promise-reflect": "^1.1.0",
+    "react-native-uuid": "^1.4.9"
+  },
+  "deprecated": false,
+  "description": "A React Native Job Queue",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "babel-jest": "^21.2.0",
+    "babel-preset-react-native": "^4.0.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1",
+    "should": "^13.1.3"
+  },
+  "homepage": "https://github.com/billmalarky/react-native-queue#readme",
+  "keywords": [
+    "react",
+    "react-native",
+    "queue",
+    "job-queue",
+    "task-queue"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-queue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billmalarky/react-native-queue.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage && if [ \"$COVERALLS_ENV\" = \"production\" ]; then cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js; fi"
+  },
+  "version": "1.2.1",
+  "react-native": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  },
+  "browser": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  }
+}
